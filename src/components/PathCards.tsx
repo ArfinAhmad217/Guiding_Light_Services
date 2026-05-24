@@ -1,13 +1,16 @@
 import { motion } from 'motion/react';
 import { Heart, School, Briefcase } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import parentCategory from '../assets/images/parent_category_1779034642622.png';
+import educatorCategory from '../assets/images/educator_category_1779034660732.png';
+import careersCategory from '../assets/images/careers_category_1779034675101.png';
 
 const paths = [
   {
     title: 'I am a Parent',
     description: 'Empowering your child and family through specialized in-home and center-based ABA therapy.',
     icon: Heart,
-    image: '/src/assets/images/parent_category_1779034642622.png',
+    image: parentCategory,
     color: 'bg-teal-600',
     cta: 'Find Support',
     href: '/services'
@@ -16,7 +19,7 @@ const paths = [
     title: "We're a School District",
     description: 'Partnering with educators to provide expert classroom support and behavior analysis.',
     icon: School,
-    image: '/src/assets/images/educator_category_1779034660732.png',
+    image: educatorCategory,
     color: 'bg-indigo-600',
     cta: 'View Services',
     href: '/services'
@@ -25,7 +28,7 @@ const paths = [
     title: 'I am an Applicant',
     description: 'Join a team that values growth, compassion, and innovation in behavioral health.',
     icon: Briefcase,
-    image: '/src/assets/images/careers_category_1779034675101.png',
+    image: careersCategory,
     color: 'bg-slate-900',
     cta: 'Browse Careers',
     href: '/careers'

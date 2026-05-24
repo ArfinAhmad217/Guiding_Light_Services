@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import therapyHero from '../assets/images/therapy_hero_1779034623463.png';
 
 export default function Hero() {
   return (
@@ -48,7 +49,7 @@ export default function Hero() {
           <div className="absolute w-[400px] h-[400px] bg-gradient-to-br from-teal-100/50 to-indigo-100/50 rounded-[4rem] rotate-12 -z-10"></div>
           <div className="relative rounded-[3rem] overflow-hidden shadow-2xl border border-white aspect-[4/5] md:aspect-square w-full max-w-[400px]">
             <img
-              src="/src/assets/images/therapy_hero_1779034623463.png"
+              src={therapyHero}
               alt="Serene Therapy Room"
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
