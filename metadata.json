@@ -1,0 +1,6 @@
+{
+  "name": "Guiding Light Behavior Services LLC",
+  "description": "Compassionate and evidence-based behavioral and developmental therapy services for families and schools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
